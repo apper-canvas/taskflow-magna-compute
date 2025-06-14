@@ -56,7 +56,7 @@ const AddTaskModal = ({
     
     setIsSubmitting(true);
     
-    try {
+try {
       const taskData = {
         ...formData,
         dueDate: formData.dueDate ? new Date(formData.dueDate).toISOString() : null
@@ -75,6 +75,7 @@ const AddTaskModal = ({
       });
     } catch (error) {
       console.error('Failed to save task:', error);
+      // Error notification handled in service
     } finally {
       setIsSubmitting(false);
     }

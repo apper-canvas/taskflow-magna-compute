@@ -86,19 +86,19 @@ const TaskManager = () => {
     return { completed, total };
   }, [tasks]);
 
-  // Handle task creation
+// Handle task creation
   const handleAddTask = async (taskData) => {
     try {
       const newTask = await taskService.create(taskData);
       setTasks(prev => [...prev, newTask]);
-      toast.success('Task created successfully');
+      // Toast notification handled in service
     } catch (error) {
-      toast.error('Failed to create task');
+      // Error notification handled in service
       throw error;
     }
   };
 
-  // Handle task completion toggle
+// Handle task completion toggle
   const handleToggleComplete = async (taskId) => {
     try {
       const updatedTask = await taskService.toggleComplete(taskId);
@@ -109,11 +109,11 @@ const TaskManager = () => {
       const action = updatedTask.completed ? 'completed' : 'uncompleted';
       toast.success(`Task ${action} successfully`);
     } catch (error) {
-      toast.error('Failed to update task');
+      // Error notification handled in service
     }
   };
 
-  // Handle task drag and drop
+// Handle task drag and drop
   const handleTaskDrop = async (taskId, newCategoryId) => {
     try {
       const updatedTask = await taskService.update(taskId, { 
@@ -126,7 +126,7 @@ const TaskManager = () => {
       
       toast.success('Task moved successfully');
     } catch (error) {
-      toast.error('Failed to move task');
+      // Error notification handled in service
     }
   };
 
