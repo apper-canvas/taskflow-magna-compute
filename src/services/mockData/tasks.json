@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "title": "Complete project proposal",
+    "description": "Finalize the Q4 project proposal and submit to stakeholders for review",
+    "categoryId": "work",
+    "priority": "high",
+    "dueDate": "2024-12-20T09:00:00.000Z",
+    "completed": false,
+    "createdAt": "12/15/2024 8:00:00 AM.000Z",
+    "completedAt": null
+  },
+  {
+    "id": "2",
+    "title": "Buy groceries",
+    "description": "Milk, eggs, bread, vegetables for the week",
+    "categoryId": "personal",
+    "priority": "medium",
+    "dueDate": "2024-12-18T18:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-12-15T10:30:00.000Z",
+    "completedAt": null
+  },
+  {
+    "id": "3",
+    "title": "Team standup meeting",
+    "description": "Daily standup with development team to discuss progress and blockers",
+    "categoryId": "work",
+    "priority": "medium",
+    "dueDate": "2024-12-17T10:00:00.000Z",
+    "completed": true,
+    "createdAt": "2024-12-15T09:15:00.000Z",
+    "completedAt": "2024-12-17T10:30:00.000Z"
+  },
+  {
+    "id": "4",
+    "title": "Schedule dental appointment",
+    "description": "Book routine cleaning and checkup",
+    "categoryId": "health",
+    "priority": "low",
+    "dueDate": "2024-12-25T00:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-12-15T14:20:00.000Z",
+    "completedAt": null
+  },
+  {
+    "id": "5",
+    "title": "Review code changes",
+    "description": "Review pull requests from team members and provide feedback",
+    "categoryId": "work",
+    "priority": "high",
+    "dueDate": "2024-12-17T17:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-12-15T16:45:00.000Z",
+    "completedAt": null
+  },
+  {
+    "id": "6",
+    "title": "Update personal portfolio",
+    "description": "Add recent projects and update skills section",
+    "categoryId": "personal",
+    "priority": "low",
+    "dueDate": "2024-12-30T00:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-12-15T19:00:00.000Z",
+    "completedAt": null
+  }
+]
